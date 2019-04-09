@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="sortable-module">
+    <test name="sortable-1">
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-2">
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-3">
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-4">
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-5">
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+</suite>
