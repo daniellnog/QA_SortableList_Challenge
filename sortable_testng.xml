@@ -1,26 +1,31 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="sortable-module">
     <test name="sortable-1">
+        <parameter name="ip" value="169.254.160.79"/>
         <classes>
             <class name="com.qa_sortable_challenge.tests.SortableTest"/>
         </classes>
     </test>
     <test name="sortable-2">
+        <parameter name="ip" value="169.254.160.79"/>
         <classes>
             <class name="com.qa_sortable_challenge.tests.SortableTest"/>
         </classes>
     </test>
     <test name="sortable-3">
+        <parameter name="ip" value="169.254.160.79"/>
         <classes>
             <class name="com.qa_sortable_challenge.tests.SortableTest"/>
         </classes>
     </test>
     <test name="sortable-4">
+        <parameter name="ip" value="169.254.160.79"/>
         <classes>
             <class name="com.qa_sortable_challenge.tests.SortableTest"/>
         </classes>
     </test>
     <test name="sortable-5">
+        <parameter name="ip" value="169.254.160.79"/>
         <classes>
             <class name="com.qa_sortable_challenge.tests.SortableTest"/>
         </classes>

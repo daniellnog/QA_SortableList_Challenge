@@ -16,16 +16,25 @@ import java.net.URL;
 
 public class SortableTest {
 
+//    public static void main(String[] args) {
+//        SortableTest sortableTest = new SortableTest();
+//        sortableTest.setupDriver();
+//        sortableTest.sortTable();
+//        sortableTest.quitBrowser();
+//    }
+
     private WebDriver driver;
 
 
     @BeforeTest
-    public void setupDriver() throws MalformedURLException {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        driver = new ChromeDriver();
-//        DesiredCapabilities dc = DesiredCapabilities.chrome();
-//        this.driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), dc);
+    @Parameters({ "ip" })
+    public void setupDriver(String ip) throws MalformedURLException {
+//        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+//        driver = new ChromeDriver();
+        DesiredCapabilities dc = DesiredCapabilities.chrome();
+        this.driver = new RemoteWebDriver(new URL("http://" + ip + ":4444/wd/hub"), dc);
     }
+
 
     @Test
     public void sortTable(){

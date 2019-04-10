@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sortable-module" duration-ms="21607" started-at="2019-04-10T14:34:34Z" finished-at="2019-04-10T14:34:56Z">
+    <groups>
+    </groups>
+    <test name="sortable-1" duration-ms="5460" started-at="2019-04-10T14:34:34Z" finished-at="2019-04-10T14:34:40Z">
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@d7b1517]" name="setupDriver" is-config="true" duration-ms="2180" started-at="2019-04-10T14:34:34Z" finished-at="2019-04-10T14:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[169.254.160.79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="sortTable()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@d7b1517]" name="sortTable" duration-ms="3255" started-at="2019-04-10T14:34:36Z" finished-at="2019-04-10T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTable -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@d7b1517]" name="quitBrowser" is-config="true" duration-ms="11" started-at="2019-04-10T14:34:40Z" finished-at="2019-04-10T14:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </test> <!-- sortable-1 -->
+    <test name="sortable-2" duration-ms="4391" started-at="2019-04-10T14:34:40Z" finished-at="2019-04-10T14:34:44Z">
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@1b0375b3]" name="setupDriver" is-config="true" duration-ms="774" started-at="2019-04-10T14:34:40Z" finished-at="2019-04-10T14:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[169.254.160.79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="sortTable()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@1b0375b3]" name="sortTable" duration-ms="3607" started-at="2019-04-10T14:34:40Z" finished-at="2019-04-10T14:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTable -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@1b0375b3]" name="quitBrowser" is-config="true" duration-ms="9" started-at="2019-04-10T14:34:44Z" finished-at="2019-04-10T14:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </test> <!-- sortable-2 -->
+    <test name="sortable-3" duration-ms="4173" started-at="2019-04-10T14:34:44Z" finished-at="2019-04-10T14:34:48Z">
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@e580929]" name="setupDriver" is-config="true" duration-ms="1030" started-at="2019-04-10T14:34:44Z" finished-at="2019-04-10T14:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[169.254.160.79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="sortTable()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@e580929]" name="sortTable" duration-ms="3133" started-at="2019-04-10T14:34:45Z" finished-at="2019-04-10T14:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTable -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@e580929]" name="quitBrowser" is-config="true" duration-ms="9" started-at="2019-04-10T14:34:48Z" finished-at="2019-04-10T14:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </test> <!-- sortable-3 -->
+    <test name="sortable-4" duration-ms="3785" started-at="2019-04-10T14:34:48Z" finished-at="2019-04-10T14:34:52Z">
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@48140564]" name="setupDriver" is-config="true" duration-ms="846" started-at="2019-04-10T14:34:48Z" finished-at="2019-04-10T14:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[169.254.160.79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="sortTable()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@48140564]" name="sortTable" duration-ms="2925" started-at="2019-04-10T14:34:49Z" finished-at="2019-04-10T14:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTable -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@48140564]" name="quitBrowser" is-config="true" duration-ms="14" started-at="2019-04-10T14:34:52Z" finished-at="2019-04-10T14:34:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </test> <!-- sortable-4 -->
+    <test name="sortable-5" duration-ms="3679" started-at="2019-04-10T14:34:52Z" finished-at="2019-04-10T14:34:56Z">
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@3ac3fd8b]" name="setupDriver" is-config="true" duration-ms="849" started-at="2019-04-10T14:34:52Z" finished-at="2019-04-10T14:34:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[169.254.160.79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="sortTable()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@3ac3fd8b]" name="sortTable" duration-ms="2819" started-at="2019-04-10T14:34:53Z" finished-at="2019-04-10T14:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortTable -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa_sortable_challenge.tests.SortableTest@3ac3fd8b]" name="quitBrowser" is-config="true" duration-ms="9" started-at="2019-04-10T14:34:56Z" finished-at="2019-04-10T14:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </test> <!-- sortable-5 -->
+  </suite> <!-- sortable-module -->
+</testng-results>
