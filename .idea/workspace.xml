@@ -2,9 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f585eba-70a7-4964-8a7a-1861f069456f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/junitreports/TEST-com.qa_sortable_challenge.tests.SortableTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/sortable-1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/sortable-2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/sortable-3.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/sortable-4.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/sortable-5.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/sortable-module/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/sortable-5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sortable-module/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testng.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,30 +59,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sortable_testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="98" lean-forward="true" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+              <first_editor relative-caret-position="442">
+                <caret line="36" selection-start-line="36" selection-end-line="36" />
               </first_editor>
               <second_editor />
             </state>
@@ -88,7 +110,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -224,7 +246,7 @@
       <workItem from="1554778256506" duration="6494000" />
       <workItem from="1554829913598" duration="1807000" />
       <workItem from="1554832033332" duration="6060000" />
-      <workItem from="1554904870893" duration="16181000" />
+      <workItem from="1554904870893" duration="17360000" />
     </task>
     <servers />
   </component>
@@ -261,7 +283,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38330000" />
+    <option name="totallyTimeSpent" value="39509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,7 +295,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
@@ -382,32 +404,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+    <entry file="file://$PROJECT_DIR$/sortable_testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sortable_testng.xml">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="340">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="98" lean-forward="true" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
+          <caret line="16" column="83" lean-forward="true" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+          <first_editor relative-caret-position="442">
+            <caret line="36" selection-start-line="36" selection-end-line="36" />
           </first_editor>
           <second_editor />
         </state>
