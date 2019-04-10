@@ -26,11 +26,10 @@ https://github.com/daniellnog/QA_SortableList_Challenge.git
     7.2) Após fazer isso, você precisa alterar a propriedade "value" do nó "parameter" e colocar o seu IP.
     7.3) Se você quiser executar o teste mais de uma vez, copie o codigo "test" e cole quantas vezes você quiser que o mesmo seja executado. Atente para alterar a propriedade name, pois não é possível ter mais de um teste com o mesmo nome. 
  
- 7) Após isso, você vai buildar o container utilizando o seguinte código: docker build -t=daniel-nogueira/selenium-docker . Após esse comando ser finalizado com sucesso, todos os recursos necessários para a execução de nossos testes estarão prontos.
+ 7) Após isso, você vai buildar o container utilizando o seguinte código: "docker build -t=daniel-nogueira/selenium-docker .". Após esse comando ser finalizado com sucesso, todos os recursos necessários para a execução de nossos testes estarão prontos.
  
- 8) Inicie o container com o seguinte comando: docker run -it --entrypoint=/bin/sh -v seuDiretorio\output\:/usr/share/daniel/test-output daniel-nogueira/selenium-docker.
- 
- 9) Agora você já está dentro do container. Para rodar os testes, é preciso rodar o seguinte comando: java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* org.testng.TestNG sortable_testng.xml
+8) Inicie o container com o seguinte comando: "docker run -e MODULE=sortable_testng.xml daniel-nogueira/selenium-docker".
+ Nessa linha estamos passando por parâmetro o nosso arquivo xml como input para nosso teste ser executado. Neste momento, o teste já será executado no container.
  
  Pronto, para verificar a saída dos testes, você pode, na sua máquina local, ir até a sua pasta e verificar a pasta output, onde estará todas as informações referentes aos testes que foram executados. Acessando o arquivo index.html você tem um painel com maiores informações sobre os testes. 
                                                                         

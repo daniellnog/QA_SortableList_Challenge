@@ -12,4 +12,6 @@ ADD docker-compose.yaml					docker-compose.yaml
 # ADD suite files
 ADD sortable_testng.xml					sortable_testng.xml
 
-ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* org.testng.TestNG sortable_testng.xml
+# MODULE
+
+ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* org.testng.TestNG $MODULE
