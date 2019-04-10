@@ -12,10 +12,4 @@ ADD docker-compose.yaml					docker-compose.yaml
 # ADD suite files
 ADD sortable_testng.xml					sortable_testng.xml
 
-RUN apk update && apk add nodejs
-RUN apk update && apk add maven
-RUN apk update && apk add docker
-
-RUN docker-compose up
-
 ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* org.testng.TestNG sortable_testng.xml

@@ -27,34 +27,34 @@ public class MinderaQAChallenge {
         PageFactory.initElements(driver, this);
     }
 
-    public void sortTable(){
-        driver.get("http://172.21.207.49:3000/");
+    public void sortTable(String ip){
+        driver.get("http://" + ip + ":3000/");
 
         this.wait.until(ExpectedConditions.visibilityOf(this.app));
 
         WebElement ul = app.findElement(By.tagName("ul"));
-        //creating a list of WebElement's
+        //Criando a lista de webelements
         List<WebElement> orderedList = new ArrayList<WebElement>();
-        //creating a secundary list of WebElement's
+        //Criando uma lista de webelements secundaria
         List<WebElement> originalList = new ArrayList<WebElement>();
 
-        //verifying if the WebElement ul isn't null
+        //verificando se a lista de UL's é diferente de null
         if (ul != null) {
-            // searching within the UL a list of WebElements
+            // procurando elementos dentro da lista ul pela tag li
             orderedList = ul.findElements(By.tagName("li"));
-            // searching within the UL a list of WebElements
+            // procurando elementos dentro da lista ul pela tag li
             originalList = ul.findElements(By.tagName("li"));
-            // sorting the list through the HTML's attribute textContent
+            // ordenando a lista de acordo com o conteúdo do elemento HTML
             orderedList.sort(Comparator.comparing(a -> a.getAttribute("textContent")));
 
             for (int i = 0; i < orderedList.size(); i++) {
-                // creating a new Action
+                // criando uma nova ação
                 Actions act = new Actions(driver);
-                // searching in the originalList, the index of the actual element
+                // buscando na lista original o index atual do elemento
                 int of = originalList.indexOf(orderedList.get(i));
-                // moving the element to the correct position
+                // movendo o elemento para a posição correta
                 act.dragAndDrop(originalList.get(of), originalList.get(i)).build().perform();
-                // sorting the orderedList again
+                // ordenando novamente a lista
                 orderedList.sort(Comparator.comparing(a -> a.getAttribute("textContent")));
             }
             //closing the browser

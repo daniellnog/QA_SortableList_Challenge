@@ -2,10 +2,8 @@ package com.qa_sortable_challenge.tests;
 
 import com.qa_sortable_challenge.pages.MinderaQAChallenge;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -16,36 +14,27 @@ import java.net.URL;
 
 public class SortableTest {
 
-//    public static void main(String[] args) {
-//        SortableTest sortableTest = new SortableTest();
-//        sortableTest.setupDriver();
-//        sortableTest.sortTable();
-//        sortableTest.quitBrowser();
-//    }
-
     private WebDriver driver;
 
-
+    // Método para configurar o driver do navegador antes de iniciar a execução do teste
     @BeforeTest
     @Parameters({ "ip" })
     public void setupDriver(String ip) throws MalformedURLException {
-//        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-//        driver = new ChromeDriver();
         DesiredCapabilities dc = DesiredCapabilities.chrome();
         this.driver = new RemoteWebDriver(new URL("http://" + ip + ":4444/wd/hub"), dc);
     }
 
-
+    // Método para executar a ordenação da tabela de maneira crescente
     @Test
-    public void sortTable(){
+    @Parameters({ "ip" })
+    public void sortTable(String ip){
         MinderaQAChallenge minderaQAChallenge = new MinderaQAChallenge(driver);
-        minderaQAChallenge.sortTable();
+        minderaQAChallenge.sortTable(ip);
     }
 
+    // Método para fechar o browser
     @AfterTest
     public void quitBrowser(){
         driver.quit();
     }
-
-
 }
