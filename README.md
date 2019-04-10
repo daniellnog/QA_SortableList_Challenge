@@ -26,7 +26,7 @@ https://github.com/daniellnog/QA_SortableList_Challenge.git
     7.2) Após fazer isso, você precisa alterar a propriedade "value" do nó "parameter" e colocar o seu IP.
     7.3) Se você quiser executar o teste mais de uma vez, copie o codigo "test" e cole quantas vezes você quiser que o mesmo seja executado. Atente para alterar a propriedade name, pois não é possível ter mais de um teste com o mesmo nome. 
  
- 8) Criando uma pasta para ser enxergada de dentro do container, para colocar o resultado final dos testes.
+ 8) Criando uma pasta para ser enxergada de dentro do container, para colocar o resultado final dos testes. Na pasta raiz do repositorio clonado no item 2, digite: "mkdir output".
  
  9) Após isso, você vai buildar o container utilizando o seguinte código: "docker build -t=daniel-nogueira/selenium-docker .". Após esse comando ser finalizado com sucesso, todos os recursos necessários para a execução de nossos testes estarão prontos.
  
