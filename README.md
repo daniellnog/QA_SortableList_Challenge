@@ -38,6 +38,8 @@ Olá, para conseguir executar os testes, será necessário você seguir esse tut
  
  8) Abra mais uma instância do prompt de comando e entre no diretorio raiz do repositorio clonado no item 2. Após isso, você vai buildar o container. Utilize o seguinte código: "`docker build -t=daniel-nogueira/selenium-docker .`". Após esse comando ser finalizado com sucesso, todos os recursos necessários para a execução de nossos testes estarão prontos.
  
+ 9) Crie o diretorio para armazenar as evidencias. Digite o comando: `mkdir output`.
+ 
  10) Inicie o container com o seguinte comando: "`docker run -e MODULE=sortable_testng.xml -v seuDiretorio\output\:/usr/share/daniel/test-output daniel-nogueira/selenium-docker`".
     10.1) Você deve substituir **seuDiretorio** pelo diretório da pasta raiz que está o projeto clonado no item 2.
  Nessa linha estamos passando por parâmetro o nosso arquivo xml como input para nosso teste ser executado. Neste momento, o teste já será executado no container e você pode verificar a execução em tempo real no endereço: `http://localhost:4444/grid/admin/live` 
