@@ -30,4 +30,94 @@
             <class name="com.qa_sortable_challenge.tests.SortableTest"/>
         </classes>
     </test>
+    <test name="sortable-6">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-7">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-8">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-9">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-10">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-11">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-12">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-13">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-14">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-15">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-16">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-17">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-18">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-19">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
+    <test name="sortable-20">
+        <parameter name="ip" value="169.254.160.79"/>
+        <classes>
+            <class name="com.qa_sortable_challenge.tests.SortableTest"/>
+        </classes>
+    </test>
 </suite>

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -27,8 +27,8 @@ public class MinderaQAChallenge {
         PageFactory.initElements(driver, this);
     }
 
-    public void sortTable(){
-        driver.get("http://localhost:3000/");
+    public void sortTable(String ip) throws InterruptedException {
+        driver.get("http://" + ip + ":3000");
 
         this.wait.until(ExpectedConditions.visibilityOf(this.app));
 
@@ -47,6 +47,7 @@ public class MinderaQAChallenge {
             // ordenando a lista de acordo com o conteúdo do elemento HTML
             orderedList.sort(Comparator.comparing(a -> a.getAttribute("textContent")));
 
+
             for (int i = 0; i < orderedList.size(); i++) {
                 // criando uma nova ação
                 Actions act = new Actions(driver);
@@ -54,11 +55,12 @@ public class MinderaQAChallenge {
                 int of = originalList.indexOf(orderedList.get(i));
                 // movendo o elemento para a posição correta
                 act.dragAndDrop(originalList.get(of), originalList.get(i)).build().perform();
-                // ordenando novamente a lista
+                // ordenand3o novamente a lista
                 orderedList.sort(Comparator.comparing(a -> a.getAttribute("textContent")));
             }
-            //closing the browser
-            driver.close();
+
+            Assert.assertEquals(originalList, orderedList);
+
         }
     }
 
