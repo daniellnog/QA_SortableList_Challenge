@@ -26,10 +26,9 @@ public class SortableTest {
 
     // Método para executar a ordenação da tabela de maneira crescente
     @Test
-    @Parameters({ "ip" })
-    public void sortTable(String ip){
+    public void sortTable(){
         MinderaQAChallenge minderaQAChallenge = new MinderaQAChallenge(driver);
-        minderaQAChallenge.sortTable(ip);
+        minderaQAChallenge.sortTable();
     }
 
     // Método para fechar o browser

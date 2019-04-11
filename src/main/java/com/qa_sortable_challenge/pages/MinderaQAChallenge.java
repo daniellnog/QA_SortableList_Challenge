@@ -27,8 +27,8 @@ public class MinderaQAChallenge {
         PageFactory.initElements(driver, this);
     }
 
-    public void sortTable(String ip){
-        driver.get("http://" + ip + ":3000/");
+    public void sortTable(){
+        driver.get("http://localhost:3000/");
 
         this.wait.until(ExpectedConditions.visibilityOf(this.app));
 
