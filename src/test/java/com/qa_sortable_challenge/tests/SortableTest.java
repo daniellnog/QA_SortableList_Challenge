@@ -21,18 +21,12 @@ public class SortableTest {
 
     // Método para configurar o driver do navegador antes de iniciar a execução do teste
     @BeforeTest
-    public void setupDriver(ITestContext ctx) throws MalformedURLException {
+    @Parameters({ "ip" })
+    public void setupDriver(String ip, ITestContext ctx) throws MalformedURLException {
         DesiredCapabilities dc = DesiredCapabilities.firefox();
-
-        if(System.getProperty("BROWSER") != null){
-            dc = DesiredCapabilities.chrome();
-        }
-
-        if(System.getProperty("HOST") != null){
-            this.ip = "http://" + System.getProperty("HOST");
-        }
+        this.ip = ip;
         dc.setCapability("name", ctx.getCurrentXmlTest().getName());
-        this.driver = new RemoteWebDriver(new URL("http://" + this.ip + ":4444/wd/hub"), dc);
+        this.driver = new RemoteWebDriver(new URL("http://" + ip + ":4444/wd/hub"), dc);
         this.driver.manage().window().maximize();
 
 //        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");

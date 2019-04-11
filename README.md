@@ -36,7 +36,7 @@ Olá, para conseguir executar os testes, será necessário você seguir esse tut
     7.2) Após fazer isso, você precisa alterar a propriedade "value" do nó "parameter" e colocar o seu IP.
     7.3) Se você quiser executar o teste mais de uma vez, copie o codigo "test" e cole quantas vezes você quiser que o mesmo seja executado. **Atente para alterar a propriedade name, pois não é possível ter mais de um teste com o mesmo nome.** 
  
- 8) Após isso, você vai buildar o container. Você precisa estar na raiz do diretorio clonado no item 2. Utilize o seguinte código: "`docker build -t=daniel-nogueira/selenium-docker .`". Após esse comando ser finalizado com sucesso, todos os recursos necessários para a execução de nossos testes estarão prontos.
+ 8) Abra mais uma instância do prompt de comando e entre no diretorio raiz do repositorio clonado no item 2. Após isso, você vai buildar o container. Utilize o seguinte código: "`docker build -t=daniel-nogueira/selenium-docker .`". Após esse comando ser finalizado com sucesso, todos os recursos necessários para a execução de nossos testes estarão prontos.
  
  10) Inicie o container com o seguinte comando: "`docker run -e MODULE=sortable_testng.xml -v seuDiretorio\output\:/usr/share/daniel/test-output daniel-nogueira/selenium-docker`".
     10.1) Você deve substituir **seuDiretorio** pelo diretório da pasta raiz que está o projeto clonado no item 2.
