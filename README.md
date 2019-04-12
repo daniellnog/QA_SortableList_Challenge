@@ -14,14 +14,14 @@ Olá, para conseguir executar os testes, será necessário você seguir esse tut
 4) Uma vez que você já tenha clonado os dois repositórios, você precisará baixar o node.js, disponível em: 
 `https://nodejs.org/en/`
 
-5) Após a instalação do node, entre na pasta raiz da aplicação clonada no item 3 e posteriormente execute os seguintes comandos: 
+5) Após a instalação do node, abra uma instância do prompt de comando e entre na pasta raiz da aplicação clonada no item 3 e posteriormente execute os seguintes comandos: 
     5.1) `npm install -g parcel`
     5.2) `npm install`
     5.3) `npm start`
     
     Feito isso, a aplicação a ser testada estará funcionando na sua máquina local, na porta 3000. Para verificar se a aplicação está realmente disponível, abra o seu browser e digite localhost:3000.
  
- 6) Considerando que você já está com a aplicação a ser testada rodando localmente, abra o prompt de comando e navegue até a pasta raiz do repositório que você clonou no item 2.
+ 6) Considerando que você já está com a aplicação a ser testada rodando localmente, abra uma nova instância do prompt de comando e navegue até a pasta raiz do repositório que você clonou no item 2.
  Feito isso, você precisa digitar os seguintes comandos: 
     6.1) `docker pull elgalu/selenium`
     6.2) `docker pull dosel/zalenium`
