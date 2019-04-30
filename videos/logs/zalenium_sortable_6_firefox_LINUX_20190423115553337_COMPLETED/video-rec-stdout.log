@@ -1,0 +1,71 @@
+--40005LOG 11:56:07:057854800 Waiting for file /home/seluser/videos/vid_chrome_or_firefox_40005* to be created...
+Won't start video recording due to VIDEO env var false
+ffmpeg version 2.8.15-0ubuntu0.16.04.1 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 20160609
+  configuration: --prefix=/usr --extra-version=0ubuntu0.16.04.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --cc=cc --cxx=g++ --enable-gpl --enable-shared --disable-stripping --disable-decoder=libopenjpeg --disable-decoder=libschroedinger --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-libopus --enable-libpulse --enable-librtmp --enable-libschroedinger --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxvid --enable-libzvbi --enable-openal --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzmq --enable-frei0r --enable-libx264 --enable-libopencv
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, x11grab, from ':88.0':
+  Duration: N/A, start: 1556013368.191728, bitrate: N/A
+    Stream #0:0: Video: rawvideo (BGR[0] / 0x524742), bgr0, 1920x1080, 29.97 fps, 29.97 tbr, 1000k tbn, 29.97 tbc
+[libx264 @ 0xd64160] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 AVX2 LZCNT BMI2
+[libx264 @ 0xd64160] profile Constrained Baseline, level 4.0
+[libx264 @ 0xd64160] 264 - core 148 r2643 5c65704 - H.264/MPEG-4 AVC codec - Copyleft 2003-2015 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=3 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=10 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, matroska, to '/home/seluser/videos/vid_chrome_or_firefox_40005.mkv':
+  Metadata:
+    encoder         : Lavf56.40.101
+    Stream #0:0: Video: h264 (libx264) (H264 / 0x34363248), yuv420p, 1920x1080, q=-1--1, 10 fps, 1k tbn, 10 tbc
+    Metadata:
+      encoder         : Lavc56.60.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+frame=    4 fps=1.8 q=0.0 size=       1kB time=00:00:00.00 bitrate=N/A    
+frame=    5 fps=1.2 q=7.0 size=      31kB time=00:00:00.10 bitrate=2562.5kbits/s    
+frame=    6 fps=1.2 q=5.0 size=      59kB time=00:00:00.50 bitrate= 961.9kbits/s    
+frame=    7 fps=0.7 q=4.0 size=      71kB time=00:00:00.70 bitrate= 833.1kbits/s    
+frame=   11 fps=1.1 q=9.0 size=      99kB time=00:00:09.70 bitrate=  83.8kbits/s    
+frame=   18 fps=1.7 q=9.0 size=     100kB time=00:00:10.50 bitrate=  78.3kbits/s dup=0 drop=1    
+frame=   23 fps=2.1 q=9.0 size=     101kB time=00:00:11.00 bitrate=  75.2kbits/s dup=0 drop=2    
+frame=   28 fps=2.4 q=10.0 size=     103kB time=00:00:11.60 bitrate=  72.8kbits/s dup=0 drop=3    
+frame=   34 fps=2.8 q=9.0 size=     106kB time=00:00:12.20 bitrate=  71.2kbits/s dup=0 drop=5    
+frame=   39 fps=3.1 q=10.0 size=     106kB time=00:00:12.70 bitrate=  68.7kbits/s dup=0 drop=6    
+frame=   44 fps=3.3 q=9.0 size=     109kB time=00:00:13.20 bitrate=  67.7kbits/s dup=0 drop=7    
+frame=   50 fps=3.6 q=16.0 size=     110kB time=00:00:13.80 bitrate=  65.0kbits/s dup=0 drop=12    
+frame=   55 fps=3.8 q=10.0 size=     156kB time=00:00:14.30 bitrate=  89.3kbits/s dup=0 drop=20    
+frame=   60 fps=4.0 q=9.0 size=     161kB time=00:00:14.80 bitrate=  89.0kbits/s dup=0 drop=26    
+frame=   65 fps=4.2 q=9.0 size=     161kB time=00:00:15.30 bitrate=  86.2kbits/s dup=0 drop=33    
+frame=   70 fps=4.4 q=9.0 size=     166kB time=00:00:15.90 bitrate=  85.4kbits/s dup=0 drop=33    
+frame=   75 fps=4.6 q=9.0 size=     167kB time=00:00:16.40 bitrate=  83.2kbits/s dup=0 drop=36    
+frame=   80 fps=4.7 q=9.0 size=     171kB time=00:00:16.90 bitrate=  83.0kbits/s dup=0 drop=39    
+--40005LOG 11:56:25:887304400 Trapped SIGTERM or SIGINT so shutting down ffmpeg gracefully...
+--40005LOG 11:56:25:925767600 Will kill VID_TOOL_PID=1002 ...
+frame=   85 fps=4.9 q=-1.0 Lsize=     172kB time=00:00:17.80 bitrate=  79.1kbits/s dup=0 drop=43    
+video:171kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.760965%
+[libx264 @ 0xd64160] frame I:1     Avg QP:20.00  size: 30716
+[libx264 @ 0xd64160] frame P:84    Avg QP: 9.19  size:  1708
+[libx264 @ 0xd64160] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0xd64160] mb P  I16..4:  3.5%  0.0%  0.0%  P16..4:  0.7%  0.0%  0.0%  0.0%  0.0%    skip:95.7%
+[libx264 @ 0xd64160] coded y,uvDC,uvAC intra: 3.5% 2.4% 2.2% inter: 0.3% 0.3% 0.3%
+[libx264 @ 0xd64160] i16 v,h,dc,p: 90%  9%  1%  0%
+[libx264 @ 0xd64160] i8c dc,h,v,p: 92%  7%  1%  0%
+[libx264 @ 0xd64160] kb/s:78.28
+Exiting normally, received signal 2.
+--40005LOG 11:56:26:949615100 Tried to kill -SIGTERM VID_TOOL_PID=1002
+--40005LOG 11:56:26:970008600 Waiting up to 6s for VID_TOOL_PID=1002 to end with SIGTERM...
+--40005LOG 11:56:27:006437200 wait_pid successfully managed to SIGTERM:VID_TOOL_PID=1002 within less than 6s
+--40005LOG 11:56:27:040039800 Will try to fix the videos...
+--40005LOG 11:56:27:639595700 Fixing perms for /home/seluser/videos/vid_chrome_or_firefox_40005.mkv*
+--40005LOG 11:56:27:711299800 Changing video encoding from mkv to mp4...
+--40005LOG 11:56:32:917564700 Conversion from mkv to mp4 succeeded!
+--40005LOG 11:56:32:924220800 Cleaning up /home/seluser/videos/vid_chrome_or_firefox_40005.mkv ...
+--40005LOG 11:56:32:974245200 Optimizing /home/seluser/videos/vid_chrome_or_firefox_40005.mp4 for HTTP streaming...
+--40005LOG 11:56:33:055506300 Succeeded to mp4box_retry.sh within 8s
+--40005LOG 11:56:33:090687700 ffmpeg shutdown complete.

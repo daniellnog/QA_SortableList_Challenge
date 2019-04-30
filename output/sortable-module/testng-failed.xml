@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sortable-module]">
+  <test thread-count="5" name="sortable-1(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable" invocation-numbers="0"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-1(failed) -->
+  <test thread-count="5" name="sortable-8(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-8(failed) -->
+  <test thread-count="5" name="sortable-9(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-9(failed) -->
+  <test thread-count="5" name="sortable-10(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-10(failed) -->
+  <test thread-count="5" name="sortable-11(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-11(failed) -->
+  <test thread-count="5" name="sortable-12(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-12(failed) -->
+  <test thread-count="5" name="sortable-13(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-13(failed) -->
+  <test thread-count="5" name="sortable-14(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-14(failed) -->
+  <test thread-count="5" name="sortable-15(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-15(failed) -->
+  <test thread-count="5" name="sortable-16(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-16(failed) -->
+  <test thread-count="5" name="sortable-17(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-17(failed) -->
+  <test thread-count="5" name="sortable-18(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-18(failed) -->
+  <test thread-count="5" name="sortable-19(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-19(failed) -->
+  <test thread-count="5" name="sortable-20(failed)">
+    <parameter name="ip" value="169.254.160.79"/>
+    <classes>
+      <class name="com.qa_sortable_challenge.tests.SortableTest">
+        <methods>
+          <include name="sortTable"/>
+          <include name="setupDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.qa_sortable_challenge.tests.SortableTest -->
+    </classes>
+  </test> <!-- sortable-20(failed) -->
+</suite> <!-- Failed suite [sortable-module] -->

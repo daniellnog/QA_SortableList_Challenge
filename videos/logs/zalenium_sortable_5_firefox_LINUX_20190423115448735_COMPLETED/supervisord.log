@@ -1,0 +1,36 @@
+2019-04-23 11:54:33,831 INFO Included extra file "/etc/supervisor/conf.d/novnc.conf" during parsing
+2019-04-23 11:54:33,832 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+2019-04-23 11:54:33,832 INFO Included extra file "/etc/supervisor/conf.d/selenium-multinode.conf" during parsing
+2019-04-23 11:54:33,832 INFO Included extra file "/etc/supervisor/conf.d/selenium-node-chrome.conf" during parsing
+2019-04-23 11:54:33,833 INFO Included extra file "/etc/supervisor/conf.d/selenium-node-firefox.conf" during parsing
+2019-04-23 11:54:33,833 INFO Included extra file "/etc/supervisor/conf.d/video-rec.conf" during parsing
+2019-04-23 11:54:33,833 INFO Included extra file "/etc/supervisor/conf.d/vnc.conf" during parsing
+2019-04-23 11:54:33,833 INFO Included extra file "/etc/supervisor/conf.d/xmanager.conf" during parsing
+2019-04-23 11:54:33,834 INFO Included extra file "/etc/supervisor/conf.d/xterm.conf" during parsing
+2019-04-23 11:54:33,864 INFO RPC interface 'supervisor' initialized
+2019-04-23 11:54:33,865 INFO RPC interface 'supervisor' initialized
+2019-04-23 11:54:33,865 INFO supervisord started with pid 147
+2019-04-23 11:54:34,876 INFO spawned: 'xmanager' with pid 150
+2019-04-23 11:54:34,927 INFO spawned: 'vnc' with pid 151
+2019-04-23 11:54:34,930 INFO spawned: 'novnc' with pid 158
+2019-04-23 11:54:35,009 INFO spawned: 'selenium-multinode' with pid 164
+2019-04-23 11:54:35,012 INFO spawned: 'xterm' with pid 165
+2019-04-23 11:54:35,043 INFO success: xterm entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-04-23 11:54:36,926 INFO success: xmanager entered RUNNING state, process has stayed up for > than 2 seconds (startsecs)
+2019-04-23 11:54:36,926 INFO success: vnc entered RUNNING state, process has stayed up for > than 2 seconds (startsecs)
+2019-04-23 11:54:36,986 INFO success: novnc entered RUNNING state, process has stayed up for > than 2 seconds (startsecs)
+2019-04-23 11:54:37,932 INFO success: selenium-multinode entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2019-04-23 11:55:20,107 INFO spawned: 'video-rec' with pid 741
+2019-04-23 11:55:20,121 INFO success: video-rec entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-04-23 11:55:57,911 INFO waiting for video-rec to stop
+2019-04-23 11:55:59,914 INFO waiting for video-rec to stop
+2019-04-23 11:56:01,914 INFO waiting for video-rec to stop
+2019-04-23 11:56:03,915 INFO waiting for video-rec to stop
+2019-04-23 11:56:05,915 INFO waiting for video-rec to stop
+2019-04-23 11:56:07,920 INFO waiting for video-rec to stop
+2019-04-23 11:56:09,920 INFO waiting for video-rec to stop
+2019-04-23 11:56:11,929 INFO waiting for video-rec to stop
+2019-04-23 11:56:13,929 INFO waiting for video-rec to stop
+2019-04-23 11:56:15,939 INFO waiting for video-rec to stop
+2019-04-23 11:56:17,940 INFO waiting for video-rec to stop
+2019-04-23 11:56:18,510 INFO stopped: video-rec (exit status 0)

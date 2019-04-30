@@ -1,0 +1,40 @@
+docker build -t=daniel-nogueira/selenium-docker . # comando para buildar o arquivo Dockerfile que estiver dentro do meu diretório (logo, vc precisará estar dentro de um diretório com um arquivo Dockerfile)
+
+#gerando o jar executavel (Deve estar na raiz do projeto a ser gerado o jar)
+mvn clean package -DskipTests 
+
+#entrar na target para puder executar o jar ainda na máquina local
+cd target
+java -cp selenium-docker.jar;selenium-docker-tests.jar;libs/* org.testng.TestNG ../sortable_testng.xml
+
+#criando um arquivo vazio de nome Dockerfile
+type nul > Dockerfile
+#iniciando o container
+docker run -it --entrypoint=/bin/sh daniel-nogueira/selenium-docker
+
+
+#criar pasta para compartilhar com o container
+mkdir output
+
+#rodar o docker apontando que minha pasta output é compartilhada com a pasta test-output do container
+docker run -it --entrypoint=/bin/sh -v C:\Users\daniel.lima.nogueira\Desktop\Desafio-Mindera\QA_SortableList_Challenge\output\:/usr/share/daniel/test-output daniel-nogueira/selenium-docker
+
+#executar o test dentro do container (linux)
+java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* org.testng.TestNG sortable_testng.xml
+
+#executar o teste direto do container
+docker run -e MODULE=sortable_testng.xml -v C:\Users\daniel.lima.nogueira\Desktop\Desafio-Mindera\QA_SortableList_Challenge\output\:/usr/share/daniel/test-output daniel-nogueira/selenium-docker
+
+# rodar o container do zalenium
+docker run --rm -ti --name zalenium -p 4444:4444 ^ -v /var/run/docker.sock:/var/run/docker.sock ^ -v C:\Users\daniel.lima.nogueira\Desktop\Desafio-Mindera\QA_SortableList_Challenge/videos:/home/seluser/videos ^ --privileged dosel/zalenium start
+
+RUN apk add --update nodejs nodejs-npm
+RUN apk update && apk add git
+
+RUN git clone https://github.com/daniellnog/QA_SortableList_Challenge.git QA_SortableList_Challenge
+RUN git clone https://bitbucket.org/mindera/qa-sortable-challenge.git DesafioMindera
+
+WORKDIR /usr/share/daniel/DesafioMindera
+
+RUN npm install -g parcel
+RUN npm install

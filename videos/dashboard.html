@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="zalando.ico">
+
+        <title>Zalenium - Dashboard</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/dashboard.css" rel="stylesheet">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/dashboard.js"></script>
+    </head>
+
+    <body>
+        <div id="ui_blocker" class="ui_blocker">
+            <div class="ui_blocker_msg">
+                <div>
+                    Please wait...
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <p class="navbar-brand mb-0 mr-5">Zalenium - Dashboard</p>
+            <button type="button" class="btn btn-dark ml-5" id="testCount"></button>
+            <span class="ml-5 text-white">
+                <img alt="Completed" src="img/completed.png" width="24px" height="24px">
+                <small>Completed</small>
+            </span>
+            <span class="ml-2 text-white">
+                <img alt="Success" src="img/success.png" width="24px" height="24px">
+                <small>Success</small>
+            </span>
+            <span class="ml-2 text-white">
+                <img alt="Failed" src="img/failed.png" width="24px" height="24px">
+                <small>Failed</small>
+            </span>
+            <span class="ml-2 text-white">
+                <img alt="Timeout" src="img/timeout.png" width="24px" height="24px">
+                <small>Timeout</small>
+            </span>
+
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto"></ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <button class="btn btn-danger my-2 my-sm-0" type="button" id="cleanupButton">Cleanup</button>
+                    <button class="btn btn-danger ml-2 my-2 my-sm-0" type="button" id="resetButton">Reset</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-sm-3 col-md-3 d-none d-sm-block bg-light sidebar px-1 pt-4">
+                    <div>
+                        <input id="search" type="text" class="form-control input" placeholder="Search" />
+                    </div>
+                    <div id="tests" class="nav nav-pills flex-column list-group"><a href="#" class="list-group-item list-group-item-action flex-column align-items-start p-2"
+    data-video="zalenium_sortable_6_firefox_LINUX_20190423115553337_COMPLETED.mp4"
+    data-test-name="sortable-6"
+    data-test-selenium-session-id="ed57b903-d8d0-488b-9823-b799eea1e65a"
+    data-test-status="COMPLETED"
+    data-browser="firefox"
+    data-browser-version="66.0"
+    data-platform="linux"
+    data-proxy-name="Zalenium"
+    data-date-time="Tue Apr 23 11:55:53 CEST 2019"
+    data-added-to-dashboard="1556013396605"
+    data-screen-dimension="1920x1080"
+    data-time-zone="Europe/Berlin"
+    data-test-build=""
+    data-selenium-log="logs/zalenium_sortable_6_firefox_LINUX_20190423115553337_COMPLETED/selenium-multinode-stderr.log"
+    data-browser-driver="logs/zalenium_sortable_6_firefox_LINUX_20190423115553337_COMPLETED/firefox_driver.log"
+    data-retention-date="Fri Apr 26 11:55:53 CEST 2019">
+        <div class="d-flex w-100 justify-content-between">
+            <small class="font-weight-bold text-truncate">sortable-6</small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <small>Tue Apr 23 11:55:53 CEST 2019</small>
+            <small>
+                <img alt="Zalenium" src="img/zalenium.png" width="24px" height="24px">
+            </small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <span>
+                <img alt="linux" src="img/linux.png" width="24px" height="24px">
+                <img alt="firefox" src="img/firefox.png" width="24px" height="24px">
+                <small class="pl-1">66.0</small>
+            </span>
+            <span>
+                <img alt="COMPLETED" src="img/completed.png" width="24px" height="24px">
+            </span>
+        </div>
+</a>
+<a href="#" class="list-group-item list-group-item-action flex-column align-items-start p-2"
+    data-video="zalenium_sortable_5_firefox_LINUX_20190423115448735_COMPLETED.mp4"
+    data-test-name="sortable-5"
+    data-test-selenium-session-id="8daebb09-4b30-4d3f-af75-72087c0025b8"
+    data-test-status="COMPLETED"
+    data-browser="firefox"
+    data-browser-version="66.0"
+    data-platform="linux"
+    data-proxy-name="Zalenium"
+    data-date-time="Tue Apr 23 11:54:48 CEST 2019"
+    data-added-to-dashboard="1556013381468"
+    data-screen-dimension="1920x1080"
+    data-time-zone="Europe/Berlin"
+    data-test-build=""
+    data-selenium-log="logs/zalenium_sortable_5_firefox_LINUX_20190423115448735_COMPLETED/selenium-multinode-stderr.log"
+    data-browser-driver="logs/zalenium_sortable_5_firefox_LINUX_20190423115448735_COMPLETED/firefox_driver.log"
+    data-retention-date="Fri Apr 26 11:54:48 CEST 2019">
+        <div class="d-flex w-100 justify-content-between">
+            <small class="font-weight-bold text-truncate">sortable-5</small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <small>Tue Apr 23 11:54:48 CEST 2019</small>
+            <small>
+                <img alt="Zalenium" src="img/zalenium.png" width="24px" height="24px">
+            </small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <span>
+                <img alt="linux" src="img/linux.png" width="24px" height="24px">
+                <img alt="firefox" src="img/firefox.png" width="24px" height="24px">
+                <small class="pl-1">66.0</small>
+            </span>
+            <span>
+                <img alt="COMPLETED" src="img/completed.png" width="24px" height="24px">
+            </span>
+        </div>
+</a>
+<a href="#" class="list-group-item list-group-item-action flex-column align-items-start p-2"
+    data-video="zalenium_sortable_4_firefox_LINUX_20190423115342922_COMPLETED.mp4"
+    data-test-name="sortable-4"
+    data-test-selenium-session-id="cc5f95fe-8ca2-4227-b1d9-e5e8bc21b660"
+    data-test-status="COMPLETED"
+    data-browser="firefox"
+    data-browser-version="66.0"
+    data-platform="linux"
+    data-proxy-name="Zalenium"
+    data-date-time="Tue Apr 23 11:53:42 CEST 2019"
+    data-added-to-dashboard="1556013276345"
+    data-screen-dimension="1920x1080"
+    data-time-zone="Europe/Berlin"
+    data-test-build=""
+    data-selenium-log="logs/zalenium_sortable_4_firefox_LINUX_20190423115342922_COMPLETED/selenium-multinode-stderr.log"
+    data-browser-driver="logs/zalenium_sortable_4_firefox_LINUX_20190423115342922_COMPLETED/firefox_driver.log"
+    data-retention-date="Fri Apr 26 11:53:42 CEST 2019">
+        <div class="d-flex w-100 justify-content-between">
+            <small class="font-weight-bold text-truncate">sortable-4</small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <small>Tue Apr 23 11:53:42 CEST 2019</small>
+            <small>
+                <img alt="Zalenium" src="img/zalenium.png" width="24px" height="24px">
+            </small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <span>
+                <img alt="linux" src="img/linux.png" width="24px" height="24px">
+                <img alt="firefox" src="img/firefox.png" width="24px" height="24px">
+                <small class="pl-1">66.0</small>
+            </span>
+            <span>
+                <img alt="COMPLETED" src="img/completed.png" width="24px" height="24px">
+            </span>
+        </div>
+</a>
+<a href="#" class="list-group-item list-group-item-action flex-column align-items-start p-2"
+    data-video="zalenium_sortable_3_firefox_LINUX_20190423115249323_COMPLETED.mp4"
+    data-test-name="sortable-3"
+    data-test-selenium-session-id="e57ed97e-6a29-4348-9140-097bf32cb8c8"
+    data-test-status="COMPLETED"
+    data-browser="firefox"
+    data-browser-version="66.0"
+    data-platform="linux"
+    data-proxy-name="Zalenium"
+    data-date-time="Tue Apr 23 11:52:49 CEST 2019"
+    data-added-to-dashboard="1556013262013"
+    data-screen-dimension="1920x1080"
+    data-time-zone="Europe/Berlin"
+    data-test-build=""
+    data-selenium-log="logs/zalenium_sortable_3_firefox_LINUX_20190423115249323_COMPLETED/selenium-multinode-stderr.log"
+    data-browser-driver="logs/zalenium_sortable_3_firefox_LINUX_20190423115249323_COMPLETED/firefox_driver.log"
+    data-retention-date="Fri Apr 26 11:52:49 CEST 2019">
+        <div class="d-flex w-100 justify-content-between">
+            <small class="font-weight-bold text-truncate">sortable-3</small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <small>Tue Apr 23 11:52:49 CEST 2019</small>
+            <small>
+                <img alt="Zalenium" src="img/zalenium.png" width="24px" height="24px">
+            </small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <span>
+                <img alt="linux" src="img/linux.png" width="24px" height="24px">
+                <img alt="firefox" src="img/firefox.png" width="24px" height="24px">
+                <small class="pl-1">66.0</small>
+            </span>
+            <span>
+                <img alt="COMPLETED" src="img/completed.png" width="24px" height="24px">
+            </span>
+        </div>
+</a>
+<a href="#" class="list-group-item list-group-item-action flex-column align-items-start p-2"
+    data-video="zalenium_sortable_2_firefox_LINUX_20190423115115082_COMPLETED.mp4"
+    data-test-name="sortable-2"
+    data-test-selenium-session-id="0d14538c-0f23-4edf-8845-04dda0f2282c"
+    data-test-status="COMPLETED"
+    data-browser="firefox"
+    data-browser-version="66.0"
+    data-platform="linux"
+    data-proxy-name="Zalenium"
+    data-date-time="Tue Apr 23 11:51:15 CEST 2019"
+    data-added-to-dashboard="1556013165777"
+    data-screen-dimension="1920x1080"
+    data-time-zone="Europe/Berlin"
+    data-test-build=""
+    data-selenium-log="logs/zalenium_sortable_2_firefox_LINUX_20190423115115082_COMPLETED/selenium-multinode-stderr.log"
+    data-browser-driver="logs/zalenium_sortable_2_firefox_LINUX_20190423115115082_COMPLETED/firefox_driver.log"
+    data-retention-date="Fri Apr 26 11:51:15 CEST 2019">
+        <div class="d-flex w-100 justify-content-between">
+            <small class="font-weight-bold text-truncate">sortable-2</small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <small>Tue Apr 23 11:51:15 CEST 2019</small>
+            <small>
+                <img alt="Zalenium" src="img/zalenium.png" width="24px" height="24px">
+            </small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <span>
+                <img alt="linux" src="img/linux.png" width="24px" height="24px">
+                <img alt="firefox" src="img/firefox.png" width="24px" height="24px">
+                <small class="pl-1">66.0</small>
+            </span>
+            <span>
+                <img alt="COMPLETED" src="img/completed.png" width="24px" height="24px">
+            </span>
+        </div>
+</a>
+<a href="#" class="list-group-item list-group-item-action flex-column align-items-start p-2"
+    data-video="zalenium_sortable_1_firefox_LINUX_20190423115034877_COMPLETED.mp4"
+    data-test-name="sortable-1"
+    data-test-selenium-session-id="5acf4dbb-78ff-4c22-a335-90cac29810d9"
+    data-test-status="COMPLETED"
+    data-browser="firefox"
+    data-browser-version="66.0"
+    data-platform="linux"
+    data-proxy-name="Zalenium"
+    data-date-time="Tue Apr 23 11:50:34 CEST 2019"
+    data-added-to-dashboard="1556013091247"
+    data-screen-dimension="1920x1080"
+    data-time-zone="Europe/Berlin"
+    data-test-build=""
+    data-selenium-log="logs/zalenium_sortable_1_firefox_LINUX_20190423115034877_COMPLETED/selenium-multinode-stderr.log"
+    data-browser-driver="logs/zalenium_sortable_1_firefox_LINUX_20190423115034877_COMPLETED/firefox_driver.log"
+    data-retention-date="Fri Apr 26 11:50:34 CEST 2019">
+        <div class="d-flex w-100 justify-content-between">
+            <small class="font-weight-bold text-truncate">sortable-1</small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <small>Tue Apr 23 11:50:34 CEST 2019</small>
+            <small>
+                <img alt="Zalenium" src="img/zalenium.png" width="24px" height="24px">
+            </small>
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+            <span>
+                <img alt="linux" src="img/linux.png" width="24px" height="24px">
+                <img alt="firefox" src="img/firefox.png" width="24px" height="24px">
+                <small class="pl-1">66.0</small>
+            </span>
+            <span>
+                <img alt="COMPLETED" src="img/completed.png" width="24px" height="24px">
+            </span>
+        </div>
+</a>
+                    </div>
+                </nav>
+
+                <main class="col-sm-9 ml-sm-auto col-md-9 pt-1 invisible" role="main" id="main-container">
+                    <div class="row mb-1 pt-1 px-1">
+                        <div class="card w-100">
+                            <h5 class="card-header text-truncate p-1" id="test-name"></h5>
+                        </div>
+                    </div>
+                    <div class="row mb-1 px-1">
+                        <div class="col-sm-4 p-0">
+                            <div class="card">
+                                <div class="card-body p-1" id="browser-platform-proxy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 p-0">
+                            <div class="card">
+                                <div class="card-body p-1" id="screen-resolution-time-zone">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-1 px-1">
+                        <div class="col-sm-12 p-0 text-center">
+                            <div class="card invisible">
+                                <div class="card-body p-0" id="build"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 px-1">
+                            <div class="card">
+                                <ul class="nav nav-tabs" id="testTabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#videoFile" role="tab">Video</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#logs" role="tab">Logs</a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content" id="videoLogsContent">
+                                    <div class="tab-pane fade show active" id="videoFile" role="tabpanel">
+                                        <div align="center" class="embed-responsive embed-responsive-16by9 bg-faded">
+                                            <video id="video" controls autoplay class="embed-responsive-item">
+                                                <source id="video-source" src="" type=video/mp4>
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="logs" role="tabpanel">
+                                        <div id="accordion" role="tablist" aria-multiselectable="true">
+                                            <div class="card">
+                                                <div class="card-header" role="tab" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                            Selenium Log
+                                                        </a>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                                    <div class="card-block">
+                                                            <pre id="seleniumLog">
+                                                                Selenium Log not loaded yet...
+                                                            </pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" role="tab" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            Browser Driver Log
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="card-block">
+                                                            <pre id="browserDriverLog">
+                                                                Browser Driver Log not loaded yet...
+                                                            </pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+                <div class="modal fade" id="cleanupModal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="cleanupModalLabel">Confirmation</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure you want to cleanup tests older then 3 days?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                                <button type="button" class="btn btn-success" id="cleanupModalConfirm">Yes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="resetModal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="resetModalLabel">Confirmation</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Are you sure you want to reset the dashboard?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                                <button type="button" class="btn btn-success" id="resetModalConfirm">Yes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

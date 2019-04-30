@@ -1,0 +1,18 @@
+11:49:16.106 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.14.0', revision: 'aacccce0'
+11:49:16.146 INFO [GridLauncherV3$3.launch] - Launching a Selenium Grid node on port 40000
+2019-04-23 11:49:18.027:INFO::main: Logging initialized @7019ms to org.seleniumhq.jetty9.util.log.StdErrLog
+11:49:19.329 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 40000
+11:49:19.330 INFO [GridLauncherV3$3.launch] - Selenium Grid node is up and ready to register to the hub
+11:49:19.688 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 85000 ms.
+11:49:19.702 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://172.17.0.2:4445/grid/register
+11:49:23.220 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+11:51:17.116 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptInsecureCerts": true,
+  "browserName": "firefox",
+  "version": "",
+  "zal:name": "sortable-2"
+}
+11:51:17.165 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+11:51:35.250 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+11:51:35.371 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8575c8c9-341c-49a4-8d09-b6f1216b6492 (org.openqa.selenium.firefox.GeckoDriverService)
+11:52:01.907 INFO [ActiveSessions$1.onStop] - Removing session 8575c8c9-341c-49a4-8d09-b6f1216b6492 (org.openqa.selenium.firefox.GeckoDriverService)
